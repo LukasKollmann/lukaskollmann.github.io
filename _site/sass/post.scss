@@ -60,12 +60,36 @@
 	text-align: center;
 }
 
+.post-details{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, - gutter(2));
+	width: span(10 of 12);
+	bottom: 0;
+	color: white(1);
+	z-index: 6;
+
+	@include breakpoint($medium) {
+		transform: translate(-50%, -50%);		
+	}
+}
+
+.role, .client, .team, .date {
+	@include span(6 of 12 last);
+	
+
+	@include breakpoint($medium) {
+		@include span(3 of 12 last);
+	}
+
+}
+
 .post {
 
 	margin-bottom: 5.6em;
 }
 
-.post p {
+.post-content p{
 
 	font-size: 2.0em;
 	margin-bottom: 1.875em;
@@ -86,7 +110,7 @@
 	line-height: 1.25;
 	margin: 1.2em 0;
 	font-weight: bold;
-	text-transform: none;
+	text-transform: uppercase;
 
 	@include breakpoint($medium) {
 		font-size: 2.073em;
