@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="home-pic">
+	
+</div>
+
+<div class="grid">
+	<figure class="value-grid-item animated flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<svg viewBox="0 0 100 100" class="icon shape-LK_Logo">
+					<use xlink:href="#shape-LK_logo"></use>
+				</svg> 
+			</div>
+
+			<figcaption>
+
+				<div class="back">
+					<img src="https://lh4.googleusercontent.com/-Pc0H0xmoBKM/AAAAAAAAAAI/AAAAAAAAAAA/UIXhgWoznFY/photo.jpg" alt=""/>
+					<div class="pic-overlay2">
+
+					</div>
+					<h2 class="dere">DERE!</h2>
+				</div>   
+
+			</figcaption>
+		</div>       
+	</figure>
+
+	{% for post in site.posts %}
+
+	<figure class="value-grid-item animated">
+
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			<img src="http://housetohome.media.ipcdigital.co.uk/96/00000f6d8/6afe_orh550w550/Bay-watch.jpg" alt=""/>
+		
+
+		<div class="pic-overlay">
+			<figcaption>
+
+				<h2>{{ post.title }}</h2>
+				<p>{{ post.description }}</p>
+
+			</figcaption>
+		
+		</div></a>         
+	</figure>
+
+	{% endfor %}
+	
+</div>
