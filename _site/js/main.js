@@ -12,7 +12,7 @@
 //     });
 // });
 
-
+$(window).on('blur', function() { document.title = "COME BACK ♥︎"; });
 
 $(function() {
   $(".menu-opener").click(function() {
