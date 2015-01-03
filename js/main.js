@@ -1,3 +1,19 @@
+// var lastScrollTop = 100;
+// $(document).ready(function() {
+//     $("#container").scroll(function(event) {
+//         var st = $(this).scrollTop();
+//         if (st > lastScrollTop) {
+//             $(".link-customize, .main-nav-right, .main-nav").stop(true, true).fadeOut("slow");
+//         } else {
+
+//           $(".link-customize, .main-nav-right, .main-nav").stop(true, true).fadeIn("slow");
+//         }
+//          lastScrollTop = st;
+//     });
+// });
+
+
+
 $(function() {
   $(".menu-opener").click(function() {
     $(".main-nav").toggleClass("opened");
@@ -43,3 +59,6 @@ $(function() {
     $('.main-nav').toggle();
   });
 });
+
+
+

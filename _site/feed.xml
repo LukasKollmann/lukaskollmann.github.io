@@ -6,8 +6,8 @@
 </description>
     <link>lukaskollmann.github.io/</link>
     <atom:link href="lukaskollmann.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Dec 2014 22:52:04 +0100</pubDate>
-    <lastBuildDate>Fri, 05 Dec 2014 22:52:04 +0100</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2015 12:16:49 +0100</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2015 12:16:49 +0100</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -19,6 +19,14 @@
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;h1 id=&quot;test-berschrift-1&quot;&gt;Test Überschrift&lt;/h1&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;h1 id=&quot;test-berschrift-2&quot;&gt;Test Überschrift&lt;/h1&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;h1 id=&quot;test-berschrift-3&quot;&gt;Test Überschrift&lt;/h1&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 </description>

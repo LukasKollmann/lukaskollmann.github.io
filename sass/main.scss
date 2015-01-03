@@ -989,6 +989,7 @@ PAGE EDITS
 #container {
   height: 100%;
   overflow: scroll;
+  background-color: #606060;
 }
 
 .home article .product-addon-size, .home article .product-addon-your-message {
@@ -1190,11 +1191,11 @@ PAGE EDITS
   font-family: "Lato", Helvetica, Arial, sans-serif;
   letter-spacing: 0.15em;
 }
-.home .options.small-height {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  height: 100%;
-}
+// .home .options.small-height {
+//   overflow-y: scroll;
+//   -webkit-overflow-scrolling: touch;
+//   height: 100%;
+// }
 .home .options.small-height .options-wrap {
   position: relative;
 }
@@ -1213,7 +1214,7 @@ PAGE EDITS
 }
 
 .overlay2 {
-  background-color: #111;
+  background-color: #fff;
   width: 100%;
   height: 100%;
   opacity: 0;
