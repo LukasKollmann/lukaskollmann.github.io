@@ -2,23 +2,41 @@
     #Post
 \*------------------------------------*/
 
-.post-content {
-	width: span(10 of 12);
-	margin: 0 auto;
-
+.post-wrapper{
+	position: relative;
+	margin-top: 35%;
 	@include breakpoint($medium) {
-		width: span(8 of 12);
+		
+		margin-top: 0;
 	}
 
 	@include breakpoint($large) {
-		width: span(6 of 12);
+		
+		margin-top: 0;
+	}
+}
+
+.post-content {
+	width: span(10 of 12 last);
+	margin: 0 auto;
+	margin-top: 12vh;
+	position: relative;
+
+	@include breakpoint($medium) {
+		width: span(8 of 12 last);
+		margin-top: 0;
+	}
+
+	@include breakpoint($large) {
+		width: span(6 of 12 last);
+		margin-top: 0;
 	}
 
 }
 
 .post-header {
 	position: relative;
-	top: 0;
+	top: 10.5em;
 	left: 0;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -26,10 +44,13 @@
 	margin-bottom: 2em;
 	background: red;
 
-
-
 	@include breakpoint($large) {
 		height: 60vh;
+		top: 0;
+	}
+	@include breakpoint($medium) {
+		
+		top: 0;
 	}
 }
 
@@ -47,11 +68,11 @@
 	margin: 0;
 
 	@include breakpoint($medium){
-	font-size: 5em;
+		font-size: 5em;
 	}
 
 	@include breakpoint($large) {
-	font-size: 5em;	
+		font-size: 5em;	
 	}
 }
 
@@ -141,14 +162,8 @@
 	}
 }
 
-.post-pic-100 {
+.post img {
 
-	width: span(12 of 12);
-
-}
-
-.post-pic-50 {
-
-	width: span(6 of 12);
+	width: span(12 of 12 last);
 
 }
