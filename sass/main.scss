@@ -1186,8 +1186,6 @@ PAGE EDITS
   }
 
   @include breakpoint($large){
-
-    
   background-color: #fff;
   width: 100%;
   height: 100%;
@@ -1197,7 +1195,6 @@ PAGE EDITS
   z-index: 20;
   opacity: 0.8;
   display: none;
-    
   }
 
  
@@ -1206,7 +1203,18 @@ PAGE EDITS
 .overlay2 {
   display: none;
 
-  @include breakpoint($medium, $large){
+  @include breakpoint($medium){
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+  opacity: 0.8;
+  display: none;
+}
+@include breakpoint($large){
   background-color: #fff;
   width: 100%;
   height: 100%;
