@@ -1100,10 +1100,10 @@ PAGE EDITS
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-.home .options .space a img {
-  width: 100%;
-  display: block;
-}
+// .home .options .space a img {
+//   width: 100%;
+//   display: block;
+// }
 .home .options .space a.active:after {
   opacity: 0.75;
 }
@@ -1162,11 +1162,11 @@ PAGE EDITS
   font-family: "Lato", Helvetica, Arial, sans-serif;
   letter-spacing: 0.15em;
 }
-// .home .options.small-height {
-//   overflow-y: scroll;
-//   -webkit-overflow-scrolling: touch;
-//   height: 100%;
-// }
+.home .options.small-height {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
 .home .options.small-height .options-wrap {
   position: relative;
 }
