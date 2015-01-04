@@ -2,6 +2,8 @@
 title:  "Kunst-<br>stätte"
 title2: "Kunststätte"
 date:   2014-11-13 12:56:01
+description: Image Movie & Webdesign
+layout: post
 categories: project
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

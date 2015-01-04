@@ -1,24 +1,26 @@
 ---
 layout: default
 ---
+
+
 <div class="post">
 
   <header class="post-header">
-    <div class="post-title"><h1>{{ page.title }}</h1>
+    <div class="post-title"><h1>{{ page.title2 }}</h1>
         <p>{{ page.description }}</p>
     </div>
     <div class="post-details">
         <div class="role">
-           <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+           <p class="post-meta"><b>ROLE:</b><br>{{ page.description }}</p>
        </div>
        <div class="client">
-           <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+           <p class="post-meta"><b>CLIENT:</b><br>{{ page.client }}</p>
        </div>
        <div class="team">
-           <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+           <p class="post-meta"><b>TEAM:</b><br>{{ page.team }}</p>
        </div>
        <div class="date">
-           <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+           <p class="post-meta"><b>DATE:</b><br>{{ page.date | date: "%b %-d, %Y" }}</p>
        </div>
    </div>
 </header>

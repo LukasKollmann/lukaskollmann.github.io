@@ -2,10 +2,12 @@
 title:  "Tenato"
 title2: "Tenato"
 description: Branding, Web- & Appdesign
-date:   2014-11-13 12:56:01
+date:   2013-06-13 12:56:01
 categories: project
 layout: post
+client: Tenato
 permalink: /post/tenato
+team: Stefan Reinprecht
 ---
 
 # Test Überschrift

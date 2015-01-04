@@ -537,7 +537,7 @@ body {
   font-size: 60%;
   line-height: 1.5;
   color: $primary-color;
-  background-color: #f8f8f8;
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   position: relative;
   font-family: "Lato", "Georgia", Cambria, Times New Roman, Times, serif;
@@ -978,7 +978,7 @@ PAGE EDITS
   width: 100%;
   z-index: 50;
   height: 100%;
-  background: #f8f8f8;
+  background: white;
   -webkit-transition: top 0.3s ease-in-out;
   transition: top 0.3s ease-in-out;
   top: 100%;
@@ -986,7 +986,7 @@ PAGE EDITS
 }
 .home .options .options-wrap {
   padding: 4em 1em 0;
-  background-color: #f8f8f8;
+  background-color: white;
   margin: 0;
 }
 .home .options .options-list {
