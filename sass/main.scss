@@ -678,7 +678,7 @@ and more scalable.
   left: 10%;
 }
 .main-nav.opened .social {
-  right: 10%;
+  left: 10%;
   left: auto;
   opacity: 1;
 }
@@ -716,18 +716,19 @@ and more scalable.
 }
 .main-nav .social {
   position: absolute;
-  top: 5%;
+  top: 50%;
+  margin-left: 10%;
   height: 2em;
-  width: 10em;
-  margin-top: 0em;
+  width: 25em;
+  margin-top: 10.5em;
   -webkit-transition: opacity 0.5s ease-in-out 0.25s;
   transition: opacity 0.5s ease-in-out 0.25s;
   opacity: 0;
-  text-align: right;
+  text-align: left;
 }
 .main-nav .social li {
   display: inline-block;
-  margin: 0.75em 0 0 1.25em;
+  margin: 0.75em 5px 0 0;
 }
 .main-nav .social li.head {
   float: none;
@@ -934,7 +935,10 @@ MAIN NAV RIGHT
   background: $primary-color;
 }
 
-
+.icon {
+    width: 24px;
+    height: 24px;
+    }
 /*********************
 MAIN NAV RIGHT END
 *********************/
