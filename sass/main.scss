@@ -833,11 +833,6 @@ MAIN NAV RIGHT
 .main-nav-right.opened .nav, .main-nav-right.opened .menu-closer2, .main-nav-right.opened .copy {
   left: 10%;
 }
-.main-nav-right.opened .social {
-  right: 10%;
-  left: auto;
-  opacity: 1;
-}
 .main-nav-right.opened .projekte-opener {
   display: none;
 }
@@ -870,35 +865,7 @@ MAIN NAV RIGHT
 .main-nav-right .nav a:hover {
   color: #bebdc5;
 }
-.main-nav-right .social {
-  position: absolute;
-  top: 5%;
-  height: 2em;
-  width: 10em;
-  margin-top: 0em;
-  -webkit-transition: opacity 0.5s ease-in-out 0.25s;
-  transition: opacity 0.5s ease-in-out 0.25s;
-  opacity: 0;
-  text-align: right;
-}
-.main-nav-right .social li {
-  display: inline-block;
-  margin: 0.75em 0 0 1.25em;
-}
-.main-nav-right .social li.head {
-  float: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  letter-spacing: 0.15em;
-  font-size: 0.6em;
-  margin: 0;
-}
-.main-nav-right .social a {
-  text-decoration: none;
-  font-size: 1.33em;
-  color: #bebdc5;
-}
+
 .main-nav-right .copy {
   position: absolute;
   left: -20em;
@@ -1375,6 +1342,7 @@ you can add resource intensive styles.
   }
   .main-nav.opened .social {
     left: 10%;
+    width: 20em;
   }
   .main-nav .nav {
     height: 30em;
@@ -1397,7 +1365,7 @@ you can add resource intensive styles.
     text-align: left;
   }
   .main-nav .social li {
-    margin: 0.75em 1.25em 0 0;
+    margin: 0.75em 5px 0 0;
   }
   .main-nav .social a:hover {
     color: #a6a5b0;
@@ -1405,13 +1373,21 @@ you can add resource intensive styles.
   .main-nav .menu-closer {
     top: 50%;
     margin-top: -13.5em;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+  }
+  .menu-closer:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
   .main-nav .copy {
     top: 50%;
-    margin-top: 20em;
+    margin-top: 25em;
     bottom: auto;
   }
-
   .menu-opener {
     width: 3.5em;
     font-size: 0.8em;
@@ -1491,9 +1467,6 @@ you can add resource intensive styles.
     color: white;
     display: block;
   }
-  .main-nav-right.opened .social {
-    left: 10%;
-  }
   .main-nav-right .nav {
     height: 30em;
     margin-top: -13.5em;
@@ -1507,23 +1480,30 @@ you can add resource intensive styles.
     font-size: 1.8em;
     line-height: 1.5em;
   }
-  .main-nav-right .social {
-    margin-top: 10.5em;
-    right: auto;
-    left: -20em;
-    top: 50%;
-    text-align: left;
-  }
-  .main-nav-right .social li {
-    margin: 0.75em 1.25em 0 0;
-  }
-  .main-nav-right .social a:hover {
-    color: #a6a5b0;
-  }
   .main-nav-right .menu-closer2 {
     top: 50%;
     margin-top: -13.5em;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
   }
+  .menu-closer2:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .closer-wrap a{
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+ }
+  .closer-wrap a:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+ }
   .main-nav-right .copy {
     top: 50%;
     margin-top: 20em;
@@ -1558,6 +1538,12 @@ you can add resource intensive styles.
     background: #fff;
   }
   
+  .icon {
+    width: 24px;
+    height: 24px;
+    
+  }
+
   /*********************
   NAV RIGHT END
   *********************/  

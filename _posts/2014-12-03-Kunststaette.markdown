@@ -1,5 +1,6 @@
 ---
 title:  "Kunst-<br>stätte"
+title2: "Kunststätte"
 date:   2014-11-13 12:56:01
 categories: project
 ---

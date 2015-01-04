@@ -7,7 +7,7 @@
     <nav class="site-nav">
      <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.104,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
           <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
@@ -37,19 +37,33 @@
       <nav role="navigation" class="main-nav">
         <a href="#" class="menu-closer" data-icon="X"></a>
         <ul id="menu-main-menu" class="nav top-nav cf"><li><a href="/"></a></li>
-        <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href="#">Download my CV</a></li>
           <li><a href="#">Contact</a></li>
+          <li><a href="#">GTC / AGB</a></li>
         </ul>       
         <ul class="social">
         <li class="head">let’s be friends</li><br>
-        <li><a href="http://www.pinterest.com/bxxlght" data-icon="p"></a></li>
-        <li><a href="https://www.facebook.com/lukas.kollmann.50" data-icon="f"></a></li>
-        <li><a href="http://instagram.com/growingupisgivingup" data-icon="s"></a></li>
+        <li><a href="https://www.facebook.com/lukas.kollmann.50"><svg viewBox="0 0 10 10" class="icon shape-facebook">
+          <use xlink:href="#shape-facebook"></use>
+        </svg> </a></li>
+        <li><a href="http://instagram.com/growingupisgivingup"><svg viewBox="0 0 10 10" class="icon shape-instagram">
+          <use xlink:href="#shape-instagram"></use>
+        </svg> </a></li>
+        <li><a href="https://www.behance.net/lukaskollmann"><svg viewBox="0 0 10 10" class="icon shape-behance">
+          <use xlink:href="#shape-behance"></use>
+        </svg> </a></li>
+        <li><a href="https://www.youtube.com/user/lukasxkollmann"><svg viewBox="0 0 10 10" class="icon shape-youtube">
+          <use xlink:href="#shape-youtube"></use>
+        </svg></a></li>
+        <li><a href="https://vimeo.com/user31386185"><svg viewBox="0 0 10 10" class="icon shape-vimeo">
+          <use xlink:href="#shape-vimeo"></use>
+        </svg></a></li>
+        <li><a href="https://twitter.com/lukaskollmann"><svg viewBox="0 0 10 10" class="icon shape-twitter">
+          <use xlink:href="#shape-twitter"></use>
+        </svg></a></li>
+        <li><a href="http://www.pinterest.com/bxxlght"><svg viewBox="0 0 10 10" class="icon shape-pinterest">
+          <use xlink:href="#shape-pinterest"></use>
+        </svg></a></li>
       </ul>
       <p class="copy"><a href="lukaskollmann.github.io">Lukas Kollmann</a></p> 
       <a href="#" class="menu-opener"><span>Menu</span></a>
@@ -57,21 +71,19 @@
 
      <nav role="navigation" class="main-nav-right">
       <a href="#" class="menu-closer2" data-icon="X"></a>
-        <ul id="menu-main-menu" class="nav top-nav cf"><li><a href="/">Projekte</a></li>
+        <ul id="menu-main-menu" class="nav top-nav cf"><li><a href="/">Projects</a></li>
           <li><a href="#"></a></li>
-          <li><a href="#">Kunststätte</a></li>
-          <li><a href="#">Tenato</a></li>
-          <li><a href="#">Sechserhaus</a></li>
-          <li><a href="#">Kleiner Drei</a></li>
-          <li><a href="#">O-Run</a></li>
-          <li><a href="#">Schnee von Morgen</a></li>
+          {% for post in site.posts %}
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title2 }}</a></li>
+          {% endfor %}
+         
         </ul>       
-        <ul class="social">
+        <!-- <ul class="social">
         <li class="head">let’s be friends</li><br>
         <li><a href="http://www.pinterest.com/bxxlght" data-icon="p"></a></li>
         <li><a href="https://www.facebook.com/lukas.kollmann.50" data-icon="f"></a></li>
         <li><a href="http://instagram.com/growingupisgivingup" data-icon="s"></a></li>
-      </ul>
+      </ul> -->
       <p class="copy"><a href="lukaskollmann.github.io">Lukas Kollmann</a></p> 
       <a href="#" class="projekte-opener"><span>Projects</span></a>
     </nav>

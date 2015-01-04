@@ -1,5 +1,6 @@
 ---
 title:  "Schnee<br>von<br>Morgen"
+title2: "Schnee von Morgen"
 description: Exhibition Design
 date:   2014-11-13 12:56:01
 categories: project
