@@ -678,7 +678,7 @@ and more scalable.
   left: 10%;
 }
 .main-nav.opened .social {
-  left: 10%;
+
   left: auto;
   opacity: 1;
 }
@@ -717,10 +717,10 @@ and more scalable.
 .main-nav .social {
   position: absolute;
   top: 50%;
-  margin-left: 10%;
   height: 2em;
   width: 25em;
   margin-top: 10.5em;
+  margin-left: 10%;
   -webkit-transition: opacity 0.5s ease-in-out 0.25s;
   transition: opacity 0.5s ease-in-out 0.25s;
   opacity: 0;
@@ -1379,7 +1379,7 @@ you can add resource intensive styles.
     display: block;
   }
   .main-nav.opened .social {
-    left: 10%;
+    // left: 10%;
     width: 20em;
   }
   .main-nav .nav {
