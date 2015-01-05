@@ -760,8 +760,18 @@ and more scalable.
   transition: left 0.5s ease-in-out 0.5s;
 }
 .main-nav .copy a {
-  color: #807e88;
-  font-size: 0.75em;
+  display: none;
+  @include breakpoint($medium){
+   display: block;
+   color: #807e88;
+   font-size: 0.75em;
+  }
+  @include breakpoint($large){
+   display: block;
+   color: #807e88;
+   font-size: 0.75em;
+  }
+ 
 }
 .main-nav .menu-closer {
   position: absolute;
@@ -883,8 +893,18 @@ MAIN NAV RIGHT
   transition: left 0.5s ease-in-out 0.5s;
 }
 .main-nav-right .copy a {
-  color: #807e88;
-  font-size: 0.75em;
+  display: none;
+  @include breakpoint($medium){
+   display: block;
+   color: #807e88;
+   font-size: 0.75em;
+  }
+  @include breakpoint($large){
+   display: block;
+   color: #807e88;
+   font-size: 0.75em;
+  }
+ 
 }
 .main-nav-right .menu-closer2 {
   position: absolute;
@@ -981,7 +1001,7 @@ PAGE EDITS
   background: white;
   -webkit-transition: top 0.3s ease-in-out;
   transition: top 0.3s ease-in-out;
-  top: 100%;
+  display: none;
   padding-bottom: 7em;
 }
 .home .options .options-wrap {
@@ -1144,6 +1164,7 @@ PAGE EDITS
   margin-right: 1em;
 }
 .home .options.opened {
+  display: block;
   top: 7em;
 }
 .home .options .show-me {
