@@ -996,12 +996,12 @@ PAGE EDITS
   position: absolute;
   left: 0;
   width: 100%;
-  z-index: 50;
+  z-index: 100;
   height: 100%;
   background: white;
   -webkit-transition: top 0.3s ease-in-out;
   transition: top 0.3s ease-in-out;
-  display: none;
+  top: 1000%;
   padding-bottom: 7em;
 }
 .home .options .options-wrap {
@@ -1164,7 +1164,6 @@ PAGE EDITS
   margin-right: 1em;
 }
 .home .options.opened {
-  display: block;
   top: 7em;
 }
 .home .options .show-me {
