@@ -1,6 +1,6 @@
 ---
-title:  "Kleiner<br>Drei"
-title2: "Kleiner Drei"
+title:  "Kleiner Drei"
+title2: "Kleiner<br>Drei"
 date:   2014-11-13 12:56:01
 description: Short Movie
 layout: post

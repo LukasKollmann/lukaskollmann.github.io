@@ -114,6 +114,11 @@
 	}
 }
 
+.post-details a{
+	text-decoration: underline;
+	color: $white;
+}
+
 .role, .client, .team, .date {
 	margin: 0 auto;
 	width: 25%;

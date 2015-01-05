@@ -3,7 +3,35 @@
 	height: 100vh;
 	width: 100%;
 	position: relative;
-	background: black;
+	background: #ffffff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ffffff 47%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(47%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ffffff 47%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+.image-wrapper{
+	@include centerer();
+	width: 90vw;
+}
+.home-pic img{
+	@include centerer();
+	max-width: 100%;
+	height: auto;
+}
+
+
+.home-pic h1{
+	@include centerer();
+	color: #dbc08d;
+	z-index: 100;
+	font-size: 5em;
+	font-weight: bold;
+	opacity: 0.8;
 
 }
 

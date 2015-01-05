@@ -1,6 +1,6 @@
 ---
-title:  "Schnee<br>von<br>Morgen"
-title2: "Schnee von Morgen"
+title:  "Schnee von Morgen"
+title2: "Schnee<br>von<br>Morgen"
 description: Exhibition Design
 date:   2014-11-13 12:56:01
 layout: post

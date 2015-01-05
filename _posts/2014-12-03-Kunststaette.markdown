@@ -1,6 +1,6 @@
 ---
-title:  "Kunst-<br>stätte"
-title2: "Kunststätte"
+title:  "Kunststätte"
+title2: "Kunst-<br>stätte"
 date:   2014-11-13 12:56:01
 description: Image Movie & Webdesign
 layout: post

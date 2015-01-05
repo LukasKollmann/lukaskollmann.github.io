@@ -7,7 +7,7 @@ categories: project
 layout: post
 client: Tenato
 permalink: /post/tenato
-team: Stefan Reinprecht
+team: <a href="http://stefanreinprecht.at">Stefan Reinprecht</a>
 ---
 
 # Test Überschrift

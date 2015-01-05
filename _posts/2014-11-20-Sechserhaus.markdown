@@ -1,6 +1,6 @@
 ---
-title:  "Sechser-<br>haus"
-title2: "Sechserhaus"
+title:  "Sechserhaus"
+title2: "Sechser-<br>haus"
 date:   2014-11-13 12:56:01
 description: Webdesign
 layout: post

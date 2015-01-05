@@ -12,7 +12,16 @@
 //     });
 // });
 
-$(window).on('blur', function() { document.title = "COME ♥︎ BACK"; });
+var title = document.getElementsByTagName("title")[0].innerHTML;
+
+$(window).blur(function(){
+  document.title = "COME ♥︎ BACK";
+});
+$(window).focus(function(){
+  document.title = title;
+});
+
+// $(window).on('blur', function() { document.title = "COME ♥︎ BACK"; });
 
 $(function() {
   $(".menu-opener").click(function() {
