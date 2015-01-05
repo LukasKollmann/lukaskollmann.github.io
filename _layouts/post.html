@@ -5,29 +5,43 @@ layout: default
 
 <div class="post">
 
-  <header class="post-header">
-    <div class="post-title"><h1>{{ page.title2 }}</h1>
+ <header class="post-header" style="background-image: url({{ page.header-image }});"><div class="header-overlay" ></div>
+     <div class="post-title"><h1>{{ page.title2 }}</h1>
         <p>{{ page.description }}</p>
+      
     </div>
     <div class="post-details">
-        <div class="role">
-           <p class="post-meta"><b>ROLE:</b><br>{{ page.description }}</p>
-       </div>
-       <div class="client">
-           <p class="post-meta"><b>CLIENT:</b><br>{{ page.client }}</p>
-       </div>
-       <div class="team">
-           <p class="post-meta"><b>TEAM:</b><br>{{ page.team }}</p>
-       </div>
-       <div class="date">
-           <p class="post-meta"><b>DATE:</b><br>{{ page.date | date: "%b %-d, %Y" }}</p>
-       </div>
+      <div class="role">
+       <p class="post-meta"><b class="meta">ROLE:</b><br>{{ page.description }}</p>
+     </div>
+     <div class="client">
+       <p class="post-meta"><b class="meta">CLIENT:</b><br>{{ page.client }}</p>
+     </div>
+     <div class="team">
+       <p class="post-meta"><b class="meta">TEAM:</b><br>{{ page.team }}</p>
+     </div>
+     <div class="date">
+       <p class="post-meta"><b class="meta">DATE:</b><br>{{ page.date | date: "%b %-d, %Y" }}</p>
+     </div>
    </div>
-</header>
+ </header>
 
-<div class="post-wrapper">
+ <div class="post-wrapper">
   <article class="post-content">
     {{ content }}
-</article>
+
+     <div class="post-nav">
+    {% if page.previous.url %} 
+    <a href="{{page.previous.url}}"><div class="prev">&laquo; {{page.previous.title}}</div></a>
+    {% endif %}
+    {% if page.next.url %} 
+    <a href="{{page.next.url}}"><div class="next">{{page.next.title}} &raquo;</div></a>
+    {% endif %} 
+  </div>
+  </article>
+
+ 
 </div>
+
+
 </div>

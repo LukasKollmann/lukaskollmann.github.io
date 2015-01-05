@@ -1,6 +1,31 @@
 /*------------------------------------*\
     #Post
 \*------------------------------------*/
+.header-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 50vh;
+	margin-bottom: 2em;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.42) 53%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(53%,rgba(255,255,255,0.42)), color-stop(100%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.42) 53%,rgba(0,0,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.42) 53%,rgba(0,0,0,0.8) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.42) 53%,rgba(0,0,0,0.8) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.42) 53%,rgba(0,0,0,0.8) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#cc000000',GradientType=0 ); /* IE6-9 */
+
+@include breakpoint($large) {
+	height: 60vh;
+	top: 0;
+}
+@include breakpoint($medium) {
+
+	top: 0;
+}
+}
 
 .post-wrapper{
 	position: relative;
@@ -34,7 +59,7 @@
 
 }
 
-.post-header {
+.post-header{
 	position: relative;
 	top: 10.5em;
 	left: 0;
@@ -42,16 +67,22 @@
 	background-repeat: no-repeat;
 	height: 50vh;
 	margin-bottom: 2em;
-	background: red;
+	
 
-	@include breakpoint($large) {
-		height: 60vh;
-		top: 0;
-	}
-	@include breakpoint($medium) {
-		
-		top: 0;
-	}
+@include breakpoint($large) {
+	height: 60vh;
+	top: 0;
+}
+@include breakpoint($medium) {
+
+	top: 0;
+}
+}
+
+.post-header img{
+	width: 100%;
+	height: auto;
+
 }
 
 .post-title{
@@ -66,6 +97,7 @@
 	font-weight: bold;
 	font-size: 3em;
 	margin: 0 auto;
+	color: $gold;
 
 	@include breakpoint($medium){
 		font-size: 4em;
@@ -110,7 +142,7 @@
 	@include clearfix;
 	@include breakpoint($medium) {
 		width: 75%;
-			
+
 	}
 }
 
@@ -124,10 +156,10 @@
 	width: 25%;
 	float: left;
 
-	 	@include breakpoint($medium) {
+	@include breakpoint($medium) {
 		width: 25%;
 		margin: 0 auto;
-	
+
 	}
 
 }
@@ -174,4 +206,49 @@
 
 	width: span(12 of 12 last);
 
+}
+
+.meta{
+	color: $gold;
+}
+
+.post-nav{
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+}
+
+.post-nav a{
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.post-nav a:hover{
+	color: black;
+
+
+}
+
+.prev, .next{
+	width: 50%;
+	float: left;
+	margin-bottom: 8em;
+	margin-top: 3em;
+	// border-style: solid;
+	// border-color: $gold;
+	padding: 10px 0;
+	background-color: black;
+}
+
+.prev:hover, .next:hover{
+	background-color: $gold;
+}
+
+.prev{
+	border-width: 3px 0 3px 3px;
+}
+
+.next{
+	border-width: 3px 3px 3px 3px;	
 }

@@ -8,6 +8,7 @@
 
 
 $primary-color: #000;
+$gold: #dbc08d;
 
 article,
 aside,
@@ -75,6 +76,9 @@ body {
   margin: 0;
 }
 
+a, a:active, a:focus {
+outline: none;
+}
 /* ==========================================================================
    Links
    ========================================================================== */
@@ -88,9 +92,6 @@ a {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-a:focus {
-  outline: thin dotted;
-}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -712,7 +713,7 @@ and more scalable.
   */
 }
 .main-nav .nav a:hover {
-  color: #bebdc5;
+  color: $gold;
 }
 .main-nav .social {
   position: absolute;
@@ -781,7 +782,17 @@ and more scalable.
   text-decoration: none;
   -webkit-transition: left 0.25s ease-in-out;
   transition: left 0.25s ease-in-out;
-  color: #bebdc5;
+  color: $white;
+}
+
+.main-nav .menu-closer:hover {
+
+  color: $gold;
+}
+
+.main-nav-right .menu-closer2:hover {
+
+  color: $gold;
 }
 
 .menu-opener {
@@ -874,7 +885,7 @@ MAIN NAV RIGHT
   */
 }
 .main-nav-right .nav a:hover {
-  color: #bebdc5;
+  color: $gold;
 }
 
 .main-nav-right .copy {
@@ -914,7 +925,7 @@ MAIN NAV RIGHT
   text-decoration: none;
   -webkit-transition: right 0.25s ease-in-out;
   transition: right 0.25s ease-in-out;
-  color: #bebdc5;
+  color: $white;
 }
 
 .header .projekte-opener {
@@ -981,6 +992,15 @@ PAGE EDITS
   height: 100%;
   -webkit-overflow-scrolling: touch; 
   overflow: scroll;
+  background: #ffffff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ffffff 47%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(47%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ffffff 47%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   
 }
 
@@ -1611,6 +1631,11 @@ you can add resource intensive styles.
   .icon {
     width: 24px;
     height: 24px;
+    
+  }
+
+    .icon:hover{
+    fill: #dbc08d;
     
   }
 
