@@ -1017,7 +1017,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   transition: top 0.3s ease-in-out;
   visibility: hidden;
   top: 100%;
-  padding-bottom: 7em;
+  // padding-bottom: 7em;
   overflow: scroll;
 }
 .home .options .options-wrap {
@@ -1182,6 +1182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .home .options.opened {
   visibility: visible;
   top: 0em;
+  opacity: 0.8;
 }
 .home .options .show-me {
   background-color: $primary-color;
