@@ -1182,7 +1182,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .home .options.opened {
   visibility: visible;
   top: 0em;
-  opacity: 0.8;
+  opacity: 1;
+
+  @include breakpoint($medium){
+    opacity: 0.8;
+  }
+  @include breakpoint($medium){
+    opacity: 0.8;
+  }
 }
 .home .options .show-me {
   background-color: $primary-color;
@@ -1307,7 +1314,7 @@ FOOTER STYLES
   text-decoration: none;
   color: $primary-color;
   text-transform: uppercase;
-  z-index: 15;
+  // z-index: 15;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   letter-spacing: 0.15em;
   bottom: 0;
