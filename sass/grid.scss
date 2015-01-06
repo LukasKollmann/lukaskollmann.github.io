@@ -1,10 +1,27 @@
+.footer-text{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	margin-top: 15px;
+	width: 70%;
+}
+
+.footer-pic img{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	margin-top: 15px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
 
 .home-pic{
 	height: 100vh;
 	width: 100%;
 	position: relative;
-	
-
 }
 .image-wrapper{
 	@include centerer();
@@ -17,44 +34,6 @@
 	height: auto;
 }
 
-
-.home-pic h1{
-	@include centerer();
-	color: #dbc08d;
-	z-index: 9;
-	font-size: 6em;
-	font-weight: 900;
-	opacity: 0.8;
-	text-align: center;
-
-	@include breakpoint($medium){
-	font-size: 7em;
-	}
-
-	@include breakpoint($large){
-	font-size: 11em;		
-	}
-
-}
-
-.home-pic p{
-	position: relative;
-	top: 59%;
-	text-transform: uppercase;
-	color: $gold;
-	text-align: center;
-	font-weight: bold;
-	letter-spacing: 2px;
-	@include breakpoint($medium) {
-		
-		letter-spacing: 8px;
-	}
-
-	@include breakpoint($large) {
-		
-		letter-spacing: 8px;
-	}
-}
 .grid {
 	@include clearfix();
 	@include push(1);
@@ -220,8 +199,8 @@ figure.animated p {
   width: 80%;
   height: 80%;
   opacity: 0;
-  -webkit-transition: opacity 0.15s ease-in-out 0.15s;
-  transition: opacity 0.15s ease-in-out 0.15s;
+  -webkit-transition:  ease-out 0.2s;
+  transition:  ease-out 0.2s;
 }
 
 .pic-overlay2{

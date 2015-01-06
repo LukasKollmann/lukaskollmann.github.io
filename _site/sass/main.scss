@@ -3,13 +3,6 @@
 
 // Stylesheet: Main Stylesheet
 
-// Colors
-
-
-
-$primary-color: #000;
-$gold: #dbc08d;
-
 article,
 aside,
 details,
@@ -1025,6 +1018,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   visibility: hidden;
   top: 100%;
   padding-bottom: 7em;
+  overflow: scroll;
 }
 .home .options .options-wrap {
   padding: 4em 1em 0;
@@ -1187,7 +1181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .home .options.opened {
   visibility: visible;
-  top: 7em;
+  top: 0em;
 }
 .home .options .show-me {
   background-color: $primary-color;
