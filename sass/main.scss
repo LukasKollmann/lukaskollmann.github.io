@@ -1320,7 +1320,6 @@ FOOTER STYLES
   text-decoration: none;
   color: $primary-color;
   text-transform: uppercase;
-  // z-index: 15;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   letter-spacing: 0.15em;
   bottom: 0;
@@ -1330,7 +1329,7 @@ FOOTER STYLES
   transition: all 0.3s ease-in-out;
 }
 .open-customizer .footer .link-customize {
-  z-index: 60;
+  z-index: 20;
   background-color: $primary-color;
   color: #fff;
 }
