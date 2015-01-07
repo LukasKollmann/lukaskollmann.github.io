@@ -1025,9 +1025,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: 4em 1em 0;
   background-color: white;
   margin: 0;
-  z-index: 50;
   overflow: scroll;
-
 }
 .home .options .options-list {
   counter-reset: counter;
@@ -1187,8 +1185,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   visibility: visible;
   top: 0em;
   opacity: 1;
-  position: absolute;
   z-index: 50;
+  position: absolute;
 
   @include breakpoint($medium){
     opacity: 0.8;
@@ -1294,7 +1292,7 @@ FOOTER STYLES
   color: $primary-color;
   width: 100%;
   text-transform: uppercase;
-  z-index: 2;
+  z-index: 15;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   letter-spacing: 0.15em;
 }
@@ -1312,7 +1310,7 @@ FOOTER STYLES
 
 .footer .link-customize {
   background-color: white;
-  position: fixed;
+  position: absolute;
   display: block;
   font-size: 1em;
   line-height: 3.5em;
@@ -1320,6 +1318,7 @@ FOOTER STYLES
   text-decoration: none;
   color: $primary-color;
   text-transform: uppercase;
+  // z-index: 15;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   letter-spacing: 0.15em;
   bottom: 0;
@@ -1328,7 +1327,23 @@ FOOTER STYLES
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.open-customizer .footer .link-customize {
+  z-index: 60;
+  background-color: $primary-color;
+  color: #fff;
+}
+.footer .link-customize span:before {
+  left: -2.5em;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5em;
+  font-size: 0.8em;
+}
+.footer .link-customize span.loading:after {
+  content: '(Loading...)';
+  position: relative;
+  margin-left: 0.5em;
+}
 
 /*
 if you checked out the link above:
@@ -1574,11 +1589,21 @@ you can add resource intensive styles.
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
   }
-  .closer-wrap a{
-    -webkit-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+  .closer a{
+    color: black;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+   .options .closer{
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
  }
-  .closer-wrap a:hover {
+  .closer a:hover {
+     color: $gold;
+
+ }
+ .closer:hover {
+   
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
