@@ -1329,18 +1329,6 @@ FOOTER STYLES
   transition: all 0.3s ease-in-out;
 }
 
-.footer .link-customize span:before {
-  left: -2.5em;
-  position: fixed;
-  top: 50%;
-  margin-top: -0.5em;
-  font-size: 0.8em;
-}
-.footer .link-customize span.loading:after {
-  content: '(Loading...)';
-  position: relative;
-  margin-left: 0.5em;
-}
 
 /*
 if you checked out the link above:
