@@ -614,6 +614,7 @@ HEADER STYLES
 *********************/
 .header {
   background-color: $primary-color;
+  position: fixed;
 }
 
 #logo {
