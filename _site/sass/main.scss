@@ -1312,7 +1312,7 @@ FOOTER STYLES
 
 .footer .link-customize {
   background-color: white;
-  position: absolute;
+  position: fixed;
   display: block;
   font-size: 1em;
   line-height: 3.5em;
@@ -1331,7 +1331,7 @@ FOOTER STYLES
 
 .footer .link-customize span:before {
   left: -2.5em;
-  position: absolute;
+  position: fixed;
   top: 50%;
   margin-top: -0.5em;
   font-size: 0.8em;
