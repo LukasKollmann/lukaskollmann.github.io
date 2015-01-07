@@ -1187,6 +1187,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   visibility: visible;
   top: 0em;
   opacity: 1;
+  position: absolute;
+  z-index: 50;
 
   @include breakpoint($medium){
     opacity: 0.8;
