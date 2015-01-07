@@ -7,7 +7,7 @@
 	left: 0;
 	width: 100%;
 	background-repeat: no-repeat;
-	height: 50vh;
+	height: 70vh;
 	margin-bottom: 2em;
 	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.42) 53%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(53%,rgba(255,255,255,0.42)), color-stop(100%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
@@ -29,7 +29,7 @@
 
 .post-wrapper{
 	position: relative;
-	margin-top: 35%;
+	margin-top: 5%;
 	@include breakpoint($medium) {
 		
 		margin-top: 0;
@@ -62,11 +62,11 @@
 
 .post-header{
 	position: relative;
-	top: 10.5em;
+	top: 0;
 	left: 0;
 	width: 100%;
 	background-repeat: no-repeat;
-	height: 50vh;
+	height: 70vh;
 	margin-bottom: 2em;
 	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.42) 53%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(53%,rgba(255,255,255,0.42)), color-stop(100%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
@@ -89,7 +89,6 @@
 }
 
 .post-header img{
-	width: auto;
 	height: 100%;
 
 }
