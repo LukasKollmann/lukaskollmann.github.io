@@ -366,3 +366,16 @@ figure:hover .pic-overlay {
 	top: 0;
 	left: 0;
 }
+
+.title:before {
+	content: 'L.K.';
+	@include breakpoint($medium){
+		content: 'Lukas Kollmann';
+
+	}
+	@include breakpoint($medium){
+		content: 'Lukas Kollmann';
+	}
+}
+
+

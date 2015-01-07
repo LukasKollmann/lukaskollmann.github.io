@@ -614,31 +614,49 @@ HEADER STYLES
 *********************/
 .header {
   background-color: $primary-color;
-  position: fixed;
 }
 
 #logo {
   margin: 0;
-  position: fixed;
+  position: relative;
   top: 0;
-  left: 0;
-  width: 100%;
+  // left: 0;
+  float: left;
+  width: 33.3333%;
   background: #fff;
   text-align: center;
   font-size: 1em;
   line-height: 3.5em;
   z-index: 10;
   text-transform: none;
+
+  @include breakpoint($medium){
+    width: 100%;
+    left: 0;
+    position: absolute;
+  }
+  @include breakpoint($large){
+    width: 100%;
+    left: 0;
+    position: absolute; 
+  }
 }
 #logo a {
-  color: #fff;
-  background: $primary-color;
+  color: $primary-color;
+  background: #fff;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 0.75em;
   display: block;
   font-size: 1em;
   line-height: 3.6em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#logo a:hover {
+  color: #fff;
+  background: $primary-color;
+  
 }
 
 /*********************
@@ -654,21 +672,38 @@ and more scalable.
 .main-nav {
   border-bottom: 0;
   margin: 0;
-  position: fixed;
-  left: 0;
-  top: 2.8em;
+  position: relative;
+  // left: 0;
+  float: left;
+  top: 0;
   height: 2.8em;
   background: $primary-color;
-  width: 100%;
+  width: 33.3333%;
   font-size: 1.25em;
   z-index: 26;
   overflow: hidden;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  border-color: $black;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  @include breakpoint($medium){
+   position: fixed;
+   left: 0;
+   border-style: none;
+  }
+  @include breakpoint($large){
+   position: fixed;
+   left: 0;
+   border-style: none;
+  }
 }
 .main-nav.opened {
   height: 100%;
   top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
 }
 .main-nav.opened .nav, .main-nav.opened .menu-closer, .main-nav.opened .copy {
   left: 10%;
@@ -831,21 +866,52 @@ MAIN NAV RIGHT
 .main-nav-right {
   border-bottom: 0;
   margin: 0;
-  position: fixed;
-  right: 0;
-  top: 5.6em;
+  position: relative;
+  // right: 0;
+  float: left;
+  top: 0;
   height: 2.8em;
   background: $primary-color;
-  width: 100%;
+  width: 33.3333%;
   font-size: 1.25em;
   z-index: 25;
   overflow: hidden;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  border-color: $black;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  @include breakpoint($medium){
+   position: fixed;
+   right: 0;
+   float: right;
+   border-style: none;
+  }
+  @include breakpoint($large){
+   position: fixed;
+   right: 0;
+   float: right;
+   border-style: none;
+  }
 }
 .main-nav-right.opened {
   height: 100%;
   top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+   @include breakpoint($medium){
+   position: fixed;
+   left: auto;
+   right: 0 !important;
+   float: right;
+  }
+  @include breakpoint($large){
+   position: fixed;
+   left: auto;
+   right: 0 !important;
+   float: right;
+  }
 }
 .main-nav-right.opened .nav, .main-nav-right.opened .menu-closer2, .main-nav-right.opened .copy {
   left: 10%;
