@@ -1294,7 +1294,7 @@ FOOTER STYLES
   color: $primary-color;
   width: 100%;
   text-transform: uppercase;
-  z-index: 15;
+  z-index: 2;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   letter-spacing: 0.15em;
 }
@@ -1328,11 +1328,7 @@ FOOTER STYLES
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.open-customizer .footer .link-customize {
-  z-index: 20;
-  background-color: $primary-color;
-  color: #fff;
-}
+
 .footer .link-customize span:before {
   left: -2.5em;
   position: absolute;
