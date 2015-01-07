@@ -46,6 +46,7 @@
 	margin: 0 auto;
 	margin-top: 12vh;
 	position: relative;
+	max-width: 800px;
 
 	@include breakpoint($medium) {
 		width: span(8 of 12 last);
@@ -178,18 +179,19 @@
 }
 
 .post-content p{
+	word-spacing: 0.3em;
 
-	font-size: 2.0em;
-	margin-bottom: 1.875em;
+// 	font-size: 2.0em;
+// 	margin-bottom: 1.875em;
 
-	@include breakpoint($medium) {
-		font-size: 1.25em;
-	}
+// 	@include breakpoint($medium) {
+// 		font-size: 1.25em;
+// 	}
 
-	@include breakpoint($large) {
-		font-size: 1.375em;
-		line-height: 1.5em;
-	}
+// 	@include breakpoint($large) {
+// 		font-size: 1.375em;
+// 		line-height: 1.5em;
+// 	}
 
 }
 
@@ -239,24 +241,30 @@
 }
 
 .prev, .next{
-	width: 50%;
+	width: auto;
+	overflow: visible;
+	white-space: nowrap;
 	float: left;
 	margin-bottom: 8em;
 	margin-top: 3em;
-	// border-style: solid;
-	// border-color: $gold;
-	padding: 10px 0;
-	background-color: black;
+	border-style: solid;
+	border-color: $gold;
+	padding: 10px 10px;
+	color: $gold;
+
 }
 
 .prev:hover, .next:hover{
 	background-color: $gold;
+	color: $white;
 }
 
 .prev{
-	border-width: 3px 0 3px 3px;
+	border-width: 2px 2px 2px 2px;
+	float: left;
 }
 
 .next{
-	border-width: 3px 3px 3px 3px;	
+	border-width: 2px 2px 2px 2px;
+	float: right;	
 }

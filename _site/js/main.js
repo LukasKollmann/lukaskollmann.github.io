@@ -21,7 +21,7 @@ $(window).focus(function(){
   document.title = title;
 });
 
-// $(window).on('blur', function() { document.title = "COME ♥︎ BACK"; });
+
 
 $(function() {
   $(".menu-opener").click(function() {
