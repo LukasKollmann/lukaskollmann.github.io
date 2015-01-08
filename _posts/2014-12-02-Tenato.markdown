@@ -9,6 +9,7 @@ client: Tenato
 permalink: /post/tenato
 team: <a target="_blank" href="http://stefanreinprecht.at">Stefan Reinprecht</a>
 header-image: /images/tenato.jpg
+thumbnail: /images/tenato-thumbnail.jpg
 ---
 
 # Test Überschrift

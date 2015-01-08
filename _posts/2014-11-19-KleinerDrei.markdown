@@ -4,8 +4,11 @@ title2: "Kleiner<br>Drei"
 date:   2014-11-13 12:56:01
 description: Short Movie
 layout: post
+client: Studies
 categories: project
 header-image: /images/kleinerdrei.jpg
+thumbnail: /images/kleinerdrei-thumbnail.jpg
+team: <a target="_blank" href="http://stefanreinprecht.at">S. R.</a><br><a target="_blank" href="http://www.tina-bauer.com">Tina Bauer</a><br><a target="_blank" href="http://stefanreinprecht.at">Julia Egger</a>
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

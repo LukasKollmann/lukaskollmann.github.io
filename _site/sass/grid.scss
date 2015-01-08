@@ -165,7 +165,7 @@ a .button:hover{
 		img, .icon {
 			position: relative;
 			display: block;
-			// min-height: 50px;
+			width: 100%;
 			max-width: 100%;
 			opacity: 1;
 		}
@@ -297,6 +297,10 @@ figure:hover .pic-overlay {
 	}
 }
 
+figure:hover img {
+	opacity: 0;
+}
+
 .flip-container {
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -367,4 +371,10 @@ figure:hover .pic-overlay {
 	@include breakpoint($medium){
 		content: 'Lukas Kollmann';
 	}
+}
+
+figure {
+	border-style: solid;
+	border-width: 2px;
+	border-color: $gold;
 }
