@@ -233,7 +233,13 @@ a .button:hover{
 
 .grid figure p {
 	text-transform: none;
-	font-size: 0.704em;
+	font-size: 1.5em;
+	@include breakpoint($medium){
+	font-size: 1em;
+	}
+	@include breakpoint($large){
+	font-size: 1em;
+	}
 }
 
 figure.animated h2 {
@@ -264,8 +270,8 @@ figure.animated p {
 
 .pic-overlay{
 	@include centerer();
-	color: $white;
-	background: $primary-color;
+	color: $primary-color;
+	background: $gold;
 	width: 80%;
 	height: 80%;
 	opacity: 0;
@@ -275,36 +281,21 @@ figure.animated p {
 
 .pic-overlay2{
 	@include centerer();
-	color: $white;
-	background: $primary-color;
+	color: $primary-color;
+	background: $gold;
 	width: 80%;
 	height: 80%;
-	opacity: 0.6;
+	opacity: 0.9;
 	-webkit-transition: opacity 0.6s ease-in-out 0.6s;
 	transition: opacity 0.6s ease-in-out 0.6s;
 }
 
-
 figure:hover .pic-overlay {
-	opacity: 0.8;
+	opacity: 0.9;
+	h1{
+		opacity: 1;
+	}
 }
-
-// .flip-container:hover .pic-overlay2 {
-//   opacity: 0.4;
-// }
-
-// .flip-container.animated .dere {
-// 	color: $white;
-// 	top: 120%;
-// 	 -webkit-transition: all 0.6s ease-in-out 0.6s;
-//   transition: all 0.6s ease-in-out 0.6s;
-// }
-
-// .flip-container:hover .dere {
-
-// 	top: 80%;
-// }
-
 
 .flip-container {
 	-webkit-perspective: 1000px;

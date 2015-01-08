@@ -8,7 +8,7 @@ layout: post
 client: Tenato
 permalink: /post/tenato
 team: <a target="_blank" href="http://stefanreinprecht.at">Stefan Reinprecht</a>
-header-image: http://www.suwall.com/wp-content/uploads/2014/06/winter-wonderland-backgrounds-9.jpg
+header-image: /images/tenato.jpg
 ---
 
 # Test Überschrift

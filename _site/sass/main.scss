@@ -1547,9 +1547,13 @@ you can add resource intensive styles.
     transform: rotate(90deg);
   }
   .main-nav .copy {
-    top: 50%;
+    top: 45%;
     margin-top: 25em;
     bottom: auto;
+    @include breakpoint($large){
+      top: 45%;
+    }
+
   }
   .menu-opener {
     width: 3.5em;
