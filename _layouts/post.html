@@ -32,10 +32,10 @@ layout: default
 
      <div class="post-nav">
     {% if page.previous.url %} 
-    <a href="{{page.previous.url}}"><div class="prev">&laquo; {{page.previous.title}}</div></a>
+    <a href="{{page.previous.url}}"><div class="prev"> {{page.previous.title}} &raquo;</div></a>
     {% endif %}
     {% if page.next.url %} 
-    <a href="{{page.next.url}}"><div class="next">{{page.next.title}} &raquo;</div></a>
+    <a href="{{page.next.url}}"><div class="next">&laquo; {{page.next.title}} </div></a>
     {% endif %} 
   </div>
   </article>

@@ -6,13 +6,21 @@
 </description>
     <link>lukaskollmann.github.io/</link>
     <atom:link href="lukaskollmann.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Jan 2015 01:22:12 +0100</pubDate>
-    <lastBuildDate>Sat, 10 Jan 2015 01:22:12 +0100</lastBuildDate>
+    <pubDate>Sat, 10 Jan 2015 23:08:05 +0100</pubDate>
+    <lastBuildDate>Sat, 10 Jan 2015 23:08:05 +0100</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
         <title>Tenato</title>
         <description>&lt;h1 id=&quot;workflow-yourself&quot;&gt;Workflow Yourself&lt;/h1&gt;
+&lt;p&gt;In mid 2013 I were asked to join a small start-up company from Graz, which was called Teamghost at that time, to do their design related work. They told me, that they’d developed a Webapp that helps creating schedules for companies or workteams. &lt;/p&gt;
+
+&lt;p&gt;Pretty fast, I realised that this project had potential, but I wasn’t able to do the whole work on my own. So I decided to join forces with one of my best buddies, &lt;a target=&quot;_blank&quot; href=&quot;http://stefanreinprecht.at&quot;&gt;Stefan Reinprecht&lt;/a&gt;, who is an excellent allrounder and an enrichment for every team or job.&lt;/p&gt;
+
+&lt;p&gt;Our first job was to find a new name that fits the product, concept and the could represent the company as well. After a lot of different suggestions we came up with „tenato“, which stands for team-navigation-tool.&lt;/p&gt;
+
+&lt;p&gt;Since then, we faced a bunch of different tasks, problems and design iterations. Below you can see a few preview images of the Logo, Web- and Mobile-app. We hope to roll out tenato as soon as possible. Stay tuned for more images and information!&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;/images/tenato-post.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Jan 2015 13:56:01 +0100</pubDate>
@@ -25,36 +33,13 @@
       </item>
     
       <item>
-        <title>Based</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/based-post.jpg&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
-        <link>lukaskollmann.github.io/project/2014/11/13/SchneeVonMorgen.html</link>
-        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/11/13/SchneeVonMorgen.html</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>O-Run</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
-        <link>lukaskollmann.github.io/project/2014/11/13/O-Run.html</link>
-        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/11/13/O-Run.html</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
         <title>Kleiner Drei</title>
         <description>&lt;h1 id=&quot;relationships-now-and-back-then&quot;&gt;Relationships now and back then&lt;/h1&gt;
+
+&lt;p&gt;During 3rd semester of studying Informationdesign at FH Joanneum we had to make a short documentation about an arbitrary topic.
+We, that is &lt;a target=&quot;_blank&quot; href=&quot;http://stefanreinprecht.at&quot;&gt;Stefan Reinprecht&lt;/a&gt;, &lt;a target=&quot;_blank&quot; href=&quot;http://www.tina-bauer.com&quot;&gt;Tina Bauer&lt;/a&gt;, &lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/julia.egger1?fref=ts&quot;&gt;Julia Egger&lt;/a&gt;, decided to make a film about the most beautiful, and at the same time, most painful thing in the world: Love.&lt;/p&gt;
+
+&lt;p&gt;Our film shows how realtionships work now and worked back then, as well as different opinions on sex, marriage, having kids, building a home, and the One True Love. Special thanks to Ida Hartl, Marlene Lenz, Patrick Dobrovits and Verena Rumpold to be so open and honest during the interviews.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/eEQ9725TAFc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
@@ -68,12 +53,41 @@
       </item>
     
       <item>
+        <title>Based</title>
+        <description>&lt;h1 id=&quot;european-alternative-to-american-apparel&quot;&gt;European alternative to American Apparel&lt;/h1&gt;
+
+&lt;p&gt;During 3rd semester at FH Joanneum we faced the challenge to develop an European based fashion label that should be a an alternative to the fashion label American Apparel. We had to build a business model, design the whole brand and find an USP to stand out.&lt;/p&gt;
+
+&lt;p&gt;Our label,named BASED, features high quality basics and has the whole production process done in Europe, so we can roll out collections faster, produce unique clothing with a european touch and ensure the best quality for our customers.&lt;/p&gt;
+
+&lt;p&gt;The Corporate Identity was developed by &lt;a target=&quot;_blank&quot; href=&quot;http://stefanreinprecht.at&quot;&gt;Stefan Reinprecht&lt;/a&gt;, &lt;a target=&quot;_blank&quot; href=&quot;http://cargocollective.com/mariechristin&quot;&gt;Marie Christin Url&lt;/a&gt; and myself and is a clean, simple and timeless approach which are the key values of BASED. We combine minimalistic typography with strong and humorous images as well as modern graphic design.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/based-post.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
+        <link>lukaskollmann.github.io/project/2014/11/13/Based.html</link>
+        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/11/13/Based.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
         <title>Kunststätte</title>
         <description>&lt;h1 id=&quot;learning-to-put-what-you-love-in-the-moment-on-your-body-forever&quot;&gt;“Learning to put what you love in the moment, on your body forever.”&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/kunststaette-post.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In mid 2014 “Kunststätte” tattoo studio contacted me that they reopened their shop in the middle of Klagenfurt city. For that purpose they needed an image movie and a new website to represent their new pretty studio.&lt;/p&gt;
+
+&lt;p&gt;Together with &lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/raphael.koitz?fref=ts&quot;&gt;Raphael Koitz&lt;/a&gt; we filmed the clip to show the perfect location of the studio, as well as the beautiful people, premises, clothes and tattoos.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/V0kI_K3j5U4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+ We also designed and set up a WordPress-Site, so that the client has full control over the published content. Our design approach was to make a clean and modern website, where the image movie and the pictures stand out and speak a strong visual language.&lt;/p&gt;
+
+&lt;p&gt;You can have a full look at the website here at &lt;a target=&quot;_blank&quot; href=&quot;http://www.kunststaette.com&quot;&gt;kunststaette.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kunststaette-post.jpg&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 13 Aug 2014 14:56:01 +0200</pubDate>
@@ -86,8 +100,45 @@
       </item>
     
       <item>
+        <title>Wundertüte</title>
+        <description>&lt;h1 id=&quot;we-celebrate-ideas-beautiful-things-and-the-moment&quot;&gt;“We celebrate ideas, beautiful things and the moment.”&lt;/h1&gt;
+&lt;p&gt;The summer semester (BA) 2014 at FH Joanneum included a course in which a team of 6 students found a virtual company and do real jobs for real clients. Barbara Gundl, Thomas Mirnig, Jakob Listabarth, Stefan Reinprecht, Felix Pichler and myself were the founders and employees of “Wundertüte” which means surprise bag in english. &lt;/p&gt;
+
+&lt;p&gt;We came up with a very broad skill set, with different focuses on various design fields, so we decided to offer Corporate- and Webdesign/Development.&lt;/p&gt;
+
+&lt;p&gt;The first task was to find a business strategy - target groups, finances, USP, et cetera. With designing our Coporate Identity the fun part started.&lt;/p&gt;
+
+&lt;p&gt;Our approach was that when you are a client of a design company, you never know what you’re gonna get, but we at Wundertüte make sure that you’ll love it. This is implied in our mission statement “We make Ideas visible”. Even if the client doesn’t know what he oder she needs, we will find it.&lt;/p&gt;
+
+&lt;p&gt;Stefans take on the logo featured a slightly modified version of Brandon Grotesque, which reflects the character of a suprise bag, by not showing everything at first sight. As a contrast the rest of the CI is fun and playful, with the striped pattern and the small bags for the business cards, filled with confetti.&lt;/p&gt;
+
+&lt;p&gt;The website is simple but kittenish, responsive, retina-ready and build on WordPress.&lt;/p&gt;
+
+&lt;p&gt;You can have a full look at the website here at &lt;a target=&quot;_blank&quot; href=&quot;http://www.diewundertuete.at&quot;&gt;wundertuete.at&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thank you guys at Wundertüte for the funny and productive semester.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/wundertuete-post.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Jun 2014 14:56:01 +0200</pubDate>
+        <link>lukaskollmann.github.io/project/2014/06/13/Wundertuete.html</link>
+        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/06/13/Wundertuete.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
         <title>Almlamm</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/almlamm-post.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;h1 id=&quot;modern-touch-for-a-traditional-business&quot;&gt;Modern touch for a traditional business&lt;/h1&gt;
+
+&lt;p&gt;In mid 2014 I created a Logo and business cards for the family business “Almlamm”, based in Carinthia, Austria.
+The lamb comes from a small agriculture on the “Saualm”, where no chemicals and no production-enhancing agents are used. The meat is produced among an animal welfare and a sustainable economy. &lt;/p&gt;
+
+&lt;p&gt;I designed a Logo which is modern and fresh, but doesn’t forget the traditional roots of the family business.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/almlamm-post.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Jun 2014 14:56:01 +0200</pubDate>
         <link>lukaskollmann.github.io/project/2014/06/13/Almlamm.html</link>
@@ -100,9 +151,16 @@
     
       <item>
         <title>Sechserhaus</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/sechserhaus-post.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;h1 id=&quot;coworking-space-in-the-heart-of-graz&quot;&gt;Coworking space in the heart of Graz&lt;/h1&gt;
+&lt;p&gt;While working at Wundertüte, our virtual company at FH Joanneum (BA), the founder of Sechserhaus,Heimo Lercher, comissioned us with the project to design and developd a website for his company.&lt;/p&gt;
 
-&lt;h1 id=&quot;coworking-space-im-herzen-von-graz&quot;&gt;Coworking Space im Herzen von Graz&lt;/h1&gt;
+&lt;p&gt;Our main and exact task was to build a full featured WordPress-website for the creative coworking-space Sechserhaus in Graz, which offers various premises und services for working together with others in a creative environment.&lt;/p&gt;
+
+&lt;p&gt;We created an information architecture and an visual inventory of elements that we wanted to integrate into the site. After a few iteration rounds and meetings with the client the development team started to built an HTML prototype to optimize the site for mobile devices. Stefan Reinprecht, Thomas Mirnig and Felix Pichler did a great job by making the site totally dynamic via WordPress, integrating a flexible floor plan as well as making the site fully responsive.&lt;/p&gt;
+
+&lt;p&gt;You can have a full look at the website here at &lt;a target=&quot;_blank&quot; href=&quot;http://www.sechserhaus.net&quot;&gt;sechserhaus.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sechserhaus-post.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 May 2014 14:56:01 +0200</pubDate>
         <link>lukaskollmann.github.io/project/2014/05/13/Sechserhaus.html</link>
@@ -115,7 +173,7 @@
     
       <item>
         <title>Miscellaneous</title>
-        <description>&lt;h1 id=&quot;a-selection-of-smaller-projects&quot;&gt;A selection of smaller projects&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;a-selection-of-different-projects&quot;&gt;A selection of different projects&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/asap_mob.jpg&quot; /&gt;
 Merchandise Illustration Contest for A$AP MOB&lt;/p&gt;
@@ -123,6 +181,8 @@ Merchandise Illustration Contest for A$AP MOB&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/W6cxCd6WjlY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;Lyric Video - Text Animation&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/orun.jpg&quot; /&gt;
+Orientation Run App Concept - Inspired by Puma &lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2014 13:56:01 +0100</pubDate>
         <link>lukaskollmann.github.io/project/2014/01/01/Miscellaneous.html</link>

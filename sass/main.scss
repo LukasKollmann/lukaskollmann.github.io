@@ -623,15 +623,15 @@ p {
 HEADER STYLES
 *********************/
 .header {
-  background-color: $primary-color;
+
 }
 
 #logo {
   margin: 0;
-  position: relative;
+  position: fixed;
   top: 0;
-  // left: 0;
-  float: left;
+  height: 2.8em;
+  left: 0;
   width: 33.3333%;
   background: #fff;
   text-align: center;
@@ -639,16 +639,19 @@ HEADER STYLES
   line-height: 3.5em;
   z-index: 10;
   text-transform: none;
+  opacity: 0.9;
 
   @include breakpoint($medium){
     width: 100%;
     left: 0;
     position: absolute;
+    opacity: 1;
   }
   @include breakpoint($large){
     width: 100%;
     left: 0;
     position: absolute; 
+    opacity: 1;
   }
 }
 #logo a {
@@ -682,9 +685,8 @@ and more scalable.
 .main-nav {
   border-bottom: 0;
   margin: 0;
-  position: relative;
-  // left: 0;
-  float: left;
+  position: fixed;
+  left: 33.3333%;
   top: 0;
   height: 2.8em;
   background: $primary-color;
@@ -695,17 +697,20 @@ and more scalable.
   border-style: solid;
   border-width: 0 0 0 1px;
   border-color: $black;
+  opacity: 0.9;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   @include breakpoint($medium){
    position: fixed;
    left: 0;
    border-style: none;
+   opacity: 1;
   }
   @include breakpoint($large){
    position: fixed;
    left: 0;
    border-style: none;
+   opacity: 1;
   }
 }
 .main-nav.opened {
@@ -876,9 +881,8 @@ MAIN NAV RIGHT
 .main-nav-right {
   border-bottom: 0;
   margin: 0;
-  position: relative;
-  // right: 0;
-  float: left;
+  position: fixed;
+  right: 0%;
   top: 0;
   height: 2.8em;
   background: $primary-color;
@@ -889,15 +893,18 @@ MAIN NAV RIGHT
   border-style: solid;
   border-width: 0 0 0 1px;
   border-color: $black;
+  opacity: 0.9;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   @include breakpoint($medium){
+   opacity: 1;
    position: fixed;
    right: 0;
    float: right;
    border-style: none;
   }
   @include breakpoint($large){
+   opacity: 1;
    position: fixed;
    right: 0;
    float: right;
@@ -1059,6 +1066,7 @@ PAGE EDITS
 .home {
   overflow: hidden;
 }
+
 #container {
   height: 100%;
   -webkit-overflow-scrolling: touch; 
@@ -1070,10 +1078,21 @@ background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 
 background: -o-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* Opera 12+ */
 background: -ms-radial-gradient(center, ellipse cover,  #ffffff 47%,#ededed 100%); /* IE10+ */
 background: radial-gradient(ellipse at center,  #ffffff 47%,#ededed 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
 
-  
-}
+// #container:after{
+//   content: "";
+//   background: url(/images/dotted.png) left top repeat;
+//   display: block;
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     overflow: hidden;
+//     z-index: 1;
+//     height: 100%;
+//     width: 100%;
+
+// }
 
 .home article .product-addon-size, .home article .product-addon-your-message {
   display: none;
@@ -1102,7 +1121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: 4em 1em 0;
   background-color: white;
   margin: 0;
-  overflow: scroll;
+
 }
 .home .options .options-list {
   counter-reset: counter;
@@ -1387,7 +1406,7 @@ FOOTER STYLES
 
 .footer .link-customize {
   background-color: white;
-  position: absolute;
+  position: fixed;
   display: block;
   font-size: 1em;
   line-height: 3.5em;
@@ -1403,6 +1422,13 @@ FOOTER STYLES
   width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  opacity: 0.9;
+  @include breakpoint($medium){
+  opacity: 1;
+  }
+  @include breakpoint($large){
+   opacity: 1; 
+  }
 }
 .open-customizer .footer .link-customize {
   z-index: 1;
