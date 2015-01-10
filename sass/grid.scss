@@ -130,7 +130,10 @@ a .button:hover{
 	}
 
 	figure {
-		@include span(12 of 12);
+		@include gallery(6 of 12);
+			&:nth-child(n+7) {
+				margin-bottom: 0;   
+			}
 		position: relative;
 		float: left;	
 		background: #fff;		 
@@ -138,10 +141,7 @@ a .button:hover{
 		cursor: pointer;
 		margin-bottom: gutter();
 
-		&:nth-child {
-			margin-bottom: 0;   
-		}
-
+	
 
 		@include breakpoint($medium) {
 			

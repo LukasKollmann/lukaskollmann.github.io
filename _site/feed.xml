@@ -6,22 +6,18 @@
 </description>
     <link>lukaskollmann.github.io/</link>
     <atom:link href="lukaskollmann.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Jan 2015 23:36:18 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Jan 2015 23:36:18 +0100</lastBuildDate>
+    <pubDate>Sat, 10 Jan 2015 01:22:12 +0100</pubDate>
+    <lastBuildDate>Sat, 10 Jan 2015 01:22:12 +0100</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
-        <title>Sechserhaus</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].&lt;/p&gt;
-
+        <title>Tenato</title>
+        <description>&lt;h1 id=&quot;workflow-yourself&quot;&gt;Workflow Yourself&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/tenato-post.jpg&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
-        <link>lukaskollmann.github.io/project/2014/11/13/Sechserhaus.html</link>
-        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/11/13/Sechserhaus.html</guid>
+        <pubDate>Thu, 01 Jan 2015 13:56:01 +0100</pubDate>
+        <link>lukaskollmann.github.io/post/tenato</link>
+        <guid isPermaLink="true">lukaskollmann.github.io/post/tenato</guid>
         
         
         <category>project</category>
@@ -29,10 +25,8 @@
       </item>
     
       <item>
-        <title>Schnee von Morgen</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+        <title>Based</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/based-post.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
         <link>lukaskollmann.github.io/project/2014/11/13/SchneeVonMorgen.html</link>
@@ -59,26 +53,10 @@
       </item>
     
       <item>
-        <title>Kunststätte</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
-        <link>lukaskollmann.github.io/project/2014/11/13/Kunststaette.html</link>
-        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/11/13/Kunststaette.html</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
         <title>Kleiner Drei</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;h1 id=&quot;relationships-now-and-back-then&quot;&gt;Relationships now and back then&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/eEQ9725TAFc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
         <link>lukaskollmann.github.io/project/2014/11/13/KleinerDrei.html</link>
@@ -90,14 +68,17 @@
       </item>
     
       <item>
-        <title>Almlamm</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Kunststätte</title>
+        <description>&lt;h1 id=&quot;learning-to-put-what-you-love-in-the-moment-on-your-body-forever&quot;&gt;“Learning to put what you love in the moment, on your body forever.”&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/kunststaette-post.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/V0kI_K3j5U4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
 </description>
-        <pubDate>Thu, 13 Nov 2014 13:56:01 +0100</pubDate>
-        <link>lukaskollmann.github.io/project/2014/11/13/Almlamm.html</link>
-        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/11/13/Almlamm.html</guid>
+        <pubDate>Wed, 13 Aug 2014 14:56:01 +0200</pubDate>
+        <link>lukaskollmann.github.io/project/2014/08/13/Kunststaette.html</link>
+        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/08/13/Kunststaette.html</guid>
         
         
         <category>project</category>
@@ -105,31 +86,47 @@
       </item>
     
       <item>
-        <title>Tenato</title>
-        <description>&lt;h1 id=&quot;test-berschrift&quot;&gt;Test Überschrift&lt;/h1&gt;
-
-&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Bay-watch.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-&lt;img src=&quot;/images/Bay-watch.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;h1 id=&quot;test-berschrift-1&quot;&gt;Test Überschrift&lt;/h1&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;h1 id=&quot;test-berschrift-2&quot;&gt;Test Überschrift&lt;/h1&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;h1 id=&quot;test-berschrift-3&quot;&gt;Test Überschrift&lt;/h1&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+        <title>Almlamm</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/almlamm-post.jpg&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Jun 2013 14:56:01 +0200</pubDate>
-        <link>lukaskollmann.github.io/post/tenato</link>
-        <guid isPermaLink="true">lukaskollmann.github.io/post/tenato</guid>
+        <pubDate>Fri, 13 Jun 2014 14:56:01 +0200</pubDate>
+        <link>lukaskollmann.github.io/project/2014/06/13/Almlamm.html</link>
+        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/06/13/Almlamm.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Sechserhaus</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/sechserhaus-post.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;coworking-space-im-herzen-von-graz&quot;&gt;Coworking Space im Herzen von Graz&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 13 May 2014 14:56:01 +0200</pubDate>
+        <link>lukaskollmann.github.io/project/2014/05/13/Sechserhaus.html</link>
+        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/05/13/Sechserhaus.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Miscellaneous</title>
+        <description>&lt;h1 id=&quot;a-selection-of-smaller-projects&quot;&gt;A selection of smaller projects&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/asap_mob.jpg&quot; /&gt;
+Merchandise Illustration Contest for A$AP MOB&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;//www.youtube.com/embed/W6cxCd6WjlY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Lyric Video - Text Animation&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Jan 2014 13:56:01 +0100</pubDate>
+        <link>lukaskollmann.github.io/project/2014/01/01/Miscellaneous.html</link>
+        <guid isPermaLink="true">lukaskollmann.github.io/project/2014/01/01/Miscellaneous.html</guid>
         
         
         <category>project</category>

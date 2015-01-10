@@ -12,7 +12,7 @@ layout: default
     </div>
     <div class="post-details">
       <div class="role">
-       <p class="post-meta"><b class="meta">ROLE:</b><br>{{ page.description }}</p>
+       <p class="post-meta"><b class="meta">ROLE:</b><br>{{ page.role }}</p>
      </div>
      <div class="client">
        <p class="post-meta"><b class="meta">CLIENT:</b><br>{{ page.client }}</p>
@@ -21,7 +21,7 @@ layout: default
        <p class="post-meta"><b class="meta">TEAM:</b><br>{{ page.team }}</p>
      </div>
      <div class="date">
-       <p class="post-meta"><b class="meta">DATE:</b><br>{{ page.date | date: "%b %-d, %Y" }}</p>
+       <p class="post-meta"><b class="meta">DATE:</b><br>{{ page.date | date: "%b, %Y" }}</p>
      </div>
    </div>
  </header>

@@ -8,8 +8,11 @@ client: Studies
 categories: project
 header-image: /images/kleinerdrei.jpg
 thumbnail: /images/kleinerdrei-thumbnail.jpg
-team: <a target="_blank" href="http://stefanreinprecht.at">S. R.</a><br><a target="_blank" href="http://www.tina-bauer.com">Tina Bauer</a><br><a target="_blank" href="http://stefanreinprecht.at">Julia Egger</a>
+role: Concept, Filming, Edit
+team: <a target="_blank" href="http://stefanreinprecht.at">Stefan Reinprecht</a><br><a target="_blank" href="http://www.tina-bauer.com">Tina Bauer</a><br><a target="_blank" href="https://www.facebook.com/julia.egger1?fref=ts">Julia Egger</a>
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+#Relationships now and back then 
+
+
+<iframe width="100%" height="400" src="//www.youtube.com/embed/eEQ9725TAFc" frameborder="0" allowfullscreen></iframe>

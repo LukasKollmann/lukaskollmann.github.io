@@ -2,7 +2,7 @@
 title:  "Tenato"
 title2: "Tenato"
 description: Branding, Web- & Appdesign
-date:   2013-06-13 12:56:01
+date:   2015-01-01 12:56:01
 categories: project
 layout: post
 client: Tenato
@@ -10,25 +10,8 @@ permalink: /post/tenato
 team: <a target="_blank" href="http://stefanreinprecht.at">Stefan Reinprecht</a>
 header-image: /images/tenato.jpg
 thumbnail: /images/tenato-thumbnail.jpg
+role: Branding, Web- & Appdesign
 ---
 
-# Test Überschrift
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-![My helpful screenshot](/images/Bay-watch.jpg)
-![My helpful screenshot](/images/Bay-watch.jpg)
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-# Test Überschrift
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-# Test Überschrift
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-# Test Überschrift
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# Workflow Yourself
+<img src="/images/tenato-post.jpg">

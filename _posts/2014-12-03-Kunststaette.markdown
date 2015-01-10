@@ -1,15 +1,19 @@
 ---
 title:  "Kunststätte"
 title2: "Kunst-<br>stätte"
-date:   2014-11-13 12:56:01
+date:   2014-08-13 12:56:01
 description: Image Movie & Webdesign
 layout: post
 categories: project
 header-image: /images/kunststaette.jpg
 thumbnail: /images/kunststaette-thumbnail.jpg
+client: Die Kunststatte
+team: <a target="_blank" href="https://www.facebook.com/raphael.koitz?fref=ts">Raphael Koitz</a>
+role: Filming, Edit, Webdesign
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+#“Learning to put what you love in the moment, on your body forever.”
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<img src="/images/kunststaette-post.jpg">
 
+<iframe width="100%" height="400" src="//www.youtube.com/embed/V0kI_K3j5U4" frameborder="0" allowfullscreen></iframe>
 
