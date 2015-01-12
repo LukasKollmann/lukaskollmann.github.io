@@ -1121,8 +1121,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: 4em 1em 0;
   background-color: white;
   margin: 0;
-  overflow: scroll;
-
+  overflow: auto;
+  @include breakpoint($medium){
+  overflow: auto;
+  }
+  @include breakpoint($large){
+   overflow: auto; 
+  }
 }
 .home .options .options-list {
   counter-reset: counter;
