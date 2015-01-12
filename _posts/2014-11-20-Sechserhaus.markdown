@@ -13,7 +13,7 @@ team: <a target="_blank" href="http://diewundertuete.at/">Wundertüte</a>
 ---
 
 #Coworking space in the heart of Graz
-While working at Wundertüte, our virtual company at FH Joanneum (BA), the founder of Sechserhaus,Heimo Lercher, comissioned us with the project to design and developd a website for his company.
+While working at Wundertüte, our virtual company at FH Joanneum (BA), the founder of Sechserhaus, Heimo Lercher, comissioned us with the project to design and developd a website for his company.
 
 Our main and exact task was to build a full featured WordPress-website for the creative coworking-space Sechserhaus in Graz, which offers various premises und services for working together with others in a creative environment.
 
