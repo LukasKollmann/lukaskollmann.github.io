@@ -283,3 +283,21 @@
 .post-content p a {
 	color: $gold;
 }
+
+.footer-text p{
+	word-spacing: 0.15em;
+	font-size: 1.6em;
+	@include breakpoint($medium) {
+		font-size: 1.2em;
+		margin: 0 0 1em;
+		letter-spacing: 0.08em;
+		line-height: 1.7em;
+	}
+
+	@include breakpoint($large) {
+		font-size: 1.3em;
+		margin: 0 0 1em;
+		letter-spacing: 0.08em;
+		line-height: 1.7em;
+	}
+}
