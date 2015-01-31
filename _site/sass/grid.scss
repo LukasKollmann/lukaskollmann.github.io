@@ -98,17 +98,17 @@ a .button:hover{
 	content: '';
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(/images/background-mobile.jpg);
+	background-image: url(/images/background-mobile.png);
 
 	@include breakpoint($medium){
 	content: '';
-	background-image: url(/images/background.jpg);
+	background-image: url(/images/background.png);
 		
 	}
 
 	@include breakpoint($large){
 	content: '';
-	background-image: url(/images/background.jpg);
+	background-image: url(/images/background.png);
 		
 	}
 
