@@ -93,15 +93,25 @@ a .button:hover{
 	width: 100%;
 	position: relative;
 }
-.image-wrapper{
-	@include centerer();
-	width: 80vw;
-}
 
-.home-pic img{
-	@include centerer();
-	max-width: 100%;
-	height: auto;
+.home-pic{
+	content: '';
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(/images/background-mobile.jpg);
+
+	@include breakpoint($medium){
+	content: '';
+	background-image: url(/images/background.jpg);
+		
+	}
+
+	@include breakpoint($large){
+	content: '';
+	background-image: url(/images/background.jpg);
+		
+	}
+
 }
 
 .grid {
@@ -111,7 +121,7 @@ a .button:hover{
 	list-style: none;
 	text-align: center;
 	// z-index: 5;
-	padding-top: 0em;
+	padding-top: 4em;
 	padding-bottom: 5.6em;
 	z-index: 2;
 
