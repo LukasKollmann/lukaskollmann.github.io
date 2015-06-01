@@ -44,7 +44,9 @@
 
      <nav role="navigation" class="main-nav-right">
       <a href="#" class="menu-closer2" data-icon="X"></a>
-        <ul id="menu-main-menu" class="nav top-nav cf"><li><a>Projects</a></li>
+        <ul id="project menu-main-menu" class="nav top-nav cf">
+
+        <li><a class="project">Projects</a></li>
           <li><a href="#"></a></li>
           {% for post in site.posts %}
           <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>

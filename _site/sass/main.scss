@@ -964,7 +964,13 @@ MAIN NAV RIGHT
 }
 .main-nav-right .nav a:hover {
   color: $gold;
+  font-style:italic;
 }
+
+.main-nav-right .nav a.project{
+  color: $gold;
+  cursor:default;
+  font-style:italic;}
 
 .main-nav-right .copy {
   position: absolute;
@@ -1291,10 +1297,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   position: absolute;
 
   @include breakpoint($medium){
-    opacity: 0.8;
+    opacity: 0.94;
   }
   @include breakpoint($medium){
-    opacity: 0.8;
+    opacity: 0.94;
   }
 }
 .home .options .show-me {
