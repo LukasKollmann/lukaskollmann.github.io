@@ -159,7 +159,7 @@
 	color: white;
 	z-index: 6;
 	float: left;
-	@include clearfix;
+	@include container;
 	@include breakpoint($medium) {
 		width: 75%;
 

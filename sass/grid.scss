@@ -115,7 +115,7 @@ a .button:hover{
 }
 
 .grid {
-	@include clearfix();
+	@include container();
 	@include push(1);
 	width: span(10 of 12 last);
 	list-style: none;
