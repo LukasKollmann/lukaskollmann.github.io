@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lukas Kollmann</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
+    <description>My name is Lukas Kollmann and I&#39;m a freelance designer based in Graz, Austria. The most entertaining thing for me is to create content that works properly and looks appealing. At the moment, I really enjoy motion design and cinematography, as well as web- and app design. If needed, I can also handle branding- and illustration tasks, plus, I have some basic knowledge in front end development.</description>
     <link>lukaskollmann.github.io/</link>
     <atom:link href="lukaskollmann.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Mar 2016 10:34:42 +0100</pubDate>
-    <lastBuildDate>Wed, 09 Mar 2016 10:34:42 +0100</lastBuildDate>
+    <pubDate>Wed, 09 Mar 2016 14:11:27 +0100</pubDate>
+    <lastBuildDate>Wed, 09 Mar 2016 14:11:27 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
